@@ -1,0 +1,30 @@
+{
+  "name": "gif-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/test-batch.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "fflate": "0.8.2",
+    "gifenc": "1.0.3",
+    "gifuct-js": "2.1.2",
+    "lucide-react": "1.31.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "esbuild": "0.27.7",
+    "typescript": "5.9.3",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/node": "22.19.19"
+  },
+  "packageManager": "pnpm@11.25.0"
+}
